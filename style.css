@@ -1,0 +1,332 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+ article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+     display: block;
+}
+ body {
+     line-height: 1;
+}
+ ol,ul {
+     list-style: none;
+}
+ blockquote,q {
+     quotes: none;
+}
+ blockquote:before,blockquote:after,q:before,q:after {
+     content: '';
+     content: none;
+}
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+}
+ @font-face{
+     font-family: "erfan";
+     src:url("font/webyekan.woff")format("woff");
+}
+ body{
+     background: #fdfdfd;
+     font-family: "erfan","myriad pro",yahoma;
+     font-size: 14px;
+}
+ *{
+     box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -o-box-sizing: border-box;
+}
+ img{
+     max-width: 100%;
+}
+ a{
+     text-decoration: none;
+}
+ .main{
+     width: 1000px;
+     margin: 0 auto;
+}
+ .container{
+     width: 930px;
+     margin: 0 auto 30px;
+}
+ .area_title{
+     text-align: center;
+}
+ .area_title h2{
+     font-weight: bold;
+     margin: 10px 0;
+     font-size: 18px;
+     color:#2f8aa3;
+}
+ .area_title p{
+     font-weight: bold;
+     padding: 9px 0;
+     font-size: 16px;
+     color:#c81be5 ;
+}
+ .pull_righ{
+     float: right;
+}
+ .pull_left{
+     float: left;
+}
+ .masthead .top_menu{
+     border-radius: 3px;
+     width: 100%;
+     float: right;
+     background:#27a7f9;
+}
+ .masthead .top_menu ul li{
+     margin-right: -20px;
+     float: right;
+}
+ .masthead .top_menu ul li a{
+     display: block;
+     padding: 20px;
+     color:#8310e0 ;
+}
+ .masthead .top_menu ul li a:hover{
+     color:#bff98f;
+}
+ .wrapperr{
+     width: 900px;
+     margin: 0 auto;
+}
+ .container1{
+     width: 1000px;
+     margin: 0 auto;
+}
+ .half{
+     width: 50%;
+     float: right;
+     padding: 15px;
+}
+ .pull_right1{
+     float: right;
+}
+ .pull_left1{
+     margin-left: 40px;
+     margin-top:17px;
+     float: left;
+}
+ .masthead1 .main_menu{
+     width: 100%;
+     float: right;
+     background: #576dc3 ;
+}
+ .masthead1 .main_menu ul li{
+     margin-left: -20px;
+     float: right;
+}
+ .masthead .main_menu ul li a{
+     display: block;
+     padding: 25px;
+     color:#cfbd77 ;
+}
+ .masthead .main_menu ul li a:hover{
+     border-radius: 1px;
+     background: #e4d9af ;
+}
+.masthead .logo{
+     margin-left: 10px;
+}
+ .gallery{
+     margin-top: 10px;
+     width: 100%;
+     float: right;
+}
+ .gallery .gallery-item img{
+     float: right;
+}
+ .gallery .gallery-item{
+     width: 25%;
+     float: right;
+}
+ .right{
+     float: right;
+}
+ .clearfix{
+     clear: both;
+}
+ .team{
+     width: 100%;
+     float: right;
+     background: #f4f5f9;
+     padding: 50px 0;
+}
+ .team_details{
+     margin-top: 20px;
+     width: 33.33%;
+     float: right;
+     padding: 15px;
+}
+ .team_details img{
+     margin-bottom: 10px;
+     border-top-right-radius: 3px;
+     border-top-left-radius: 3px;
+     float: right;
+}
+ .team_details .team_content{
+     font-size: 15px;
+     padding: 20px;
+     background:#b8f3ec;
+     line-height: 25px;
+}
+ .team_details .team_content h2{
+     margin-bottom: 10px;
+     text-align: center;
+     font-size: 16px;
+     color:#8bc34a;
+}
+ .team_details .team_content p{
+     font-size: 15px;
+     text-align: justify;
+     font-weight: bold;
+     color:#119d79 ;
+}
+ .text1{
+     width: 100%;
+     float: right;
+     padding: 50px 0;
+     background: #f4f5f9;
+}
+ .text1 .area_title h2{
+     margin-bottom: 10px;
+     font-size: 18px;
+     font-family: "erfan";
+     font-weight: bold;
+     color:#34798a;
+}
+ .text1 .area_title p{
+     padding: 11px 0;
+     font-size: 16px;
+     font-family: "erfan";
+     color:#cb5907;
+}
+ .text-item{
+     width:33.33%;
+     float: right;
+     padding: 15px;
+}
+ .text-item p{
+     border-radius: 10px;
+     text-align: justify;
+     background:#ddddf9;
+     color:#555;
+     font-size: 22px;
+     padding: 12px;
+     line-height: 25px;
+}
+ .item .active p{
+     background: #8bc34a;
+}
+.newsletter{
+     width: 100%;
+     position: relative;
+     float: right;
+     padding: 100px 0;
+     background: url(images/newsletter_bg.png);
+     background-size:cover;
+     color:#fff; 
+}
+.newsletter .title_newsletter{
+     position: relative;
+     margin: 15px 0;
+     font-family: "erfan";
+     font-weight: bold;
+     font-size: 25px;
+}
+.newsletter .title_newsletter:hover{
+     color:#dadada ;
+}
+.newsletter form{
+     position: relative;
+}
+.overley{
+     width: 100%;
+     height: 100%;
+     top: 0;
+     left: 0;
+     right: 0;
+     position: absolute;
+     float: right;
+     background: rgba(0,0,0, .6);
+}
+.newsletter input[type="text"]{
+     width: 285px;
+     height: 80px;
+     padding: 20px;
+     border:0;
+     border-width:1px;
+     border-color: #bdbdbd;
+     border-style: dashed;
+     float: right;
+     font-family: "erfan";
+
+}
+.newsletter input[type="text"]:hover{
+     outline: 0;
+}
+.newsletter input[type="submit"]{
+     width: 150px;
+     height: 80px;
+     float: left;
+     border:0;
+     padding: 20px;
+     background:#eb70d8;
+     font-size: 20px;
+     font-family: "erfan";
+     cursor: pointer;
+     color:#333;
+}
+.newsletter input[type="submit"]:hover{
+     background: #8bc34a;
+}
+.blog{
+     width: 100%;
+     float: right;
+     padding: 100px 0;
+}
+.blog .blog-item{
+     width: 33%;
+     float: right;
+     padding: 10px;
+}
+.blog .blog-item img{
+     margin-bottom: 20px;
+     border-top-right-radius: 3px;
+     border-top-left-radius:  3px; 
+     float: right;
+}
+.blog .blog-text{
+     border-top-right-radius: 3px;
+     border-top-left-radius:  3px; 
+     background: #f4f5f9;
+     line-height: 25px;
+}
+.blog .blog-text p{
+     font-weight: bold;
+     text-align: center;
+     font-size: 15px;
+     font-family: "erfan";
+     color:#555;
+     padding: 25px;
+     background: #bebebe;
+}
+.down-text{
+     width: 100%;
+     text-align: center;
+     padding: 20px;
+     background:#8c8c8c;
+     color:#222;
+}
+.down-text:hover{
+     background: #555;
+}
